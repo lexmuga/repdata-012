@@ -2,7 +2,7 @@
 title: 'Reproducible Research: Programming Assignment 1'
 author: "Felix P. Muga II"
 date: "March 2, 2015"
-output: pdf_document
+output: html_document
 ---
 ###     Calling the Libraries
 
