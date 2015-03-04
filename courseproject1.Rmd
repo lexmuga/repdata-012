@@ -183,7 +183,7 @@ median2 <- format(round(median(numSteps2$total)), big.mark = ",")
 
 Comparison | original dataset | modified dataset              
 --------|------------------|-------------------          
-mean    |     `r mean`     |  `r mean2`                     |                  |                                   
+mean    |     `r mean`     |  `r mean2`                                                                          
 median  |   `r median`     |  `r median2`                    
 
 The error in the computation of the mean between the original  and modified datasets is zero.
