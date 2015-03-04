@@ -2,7 +2,7 @@
 title: 'Reproducible Research: Programming Assignment 1'
 author: "Felix P. Muga II"
 date: "March 2, 2015"
-output: pdf_document
+output: html_document
 ---
 ###     Calling the Libraries
 
@@ -182,9 +182,9 @@ median2 <- format(round(median(numSteps2$total)), big.mark = ",")
 ```                  
 
 Comparison | original dataset | modified dataset              
---------|------------------|-------------------          
-mean    |     `r mean`     |  `r mean2`                                                                          
-median  |   `r median`     |  `r median2`                    
+-----------|------------------|-------------------          
+mean       |     `r mean`     |  `r mean2`                                                                          
+median     |   `r median`     |  `r median2`                    
 
 The error in the computation of the mean between the original  and modified datasets is zero.
 
@@ -198,6 +198,7 @@ the error could be zero.
 
 #####   3.4.3. What is the impact of imputing missing data on the estimates of the total daily number of steps?
 
+If the values that are used to replaced the missing data are meaningless or invalid from the "true" values which are missing, then these "illegal" values may cause problems in the statistical analyses.
 
 ###     Problem 4 - Are there differences in activity patterns between weekdays and weekends?
 
