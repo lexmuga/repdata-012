@@ -186,14 +186,15 @@ Comparison | original dataset | modified dataset
 mean       |     `r mean`     |  `r mean2`                                                                          
 median     |   `r median`     |  `r median2`                    
 
-The error in the computation of the mean between the original  and modified datasets is zero.
+The difference in the computation of the mean between the original  and modified datasets is zero.
 
-However, the error with respect to the median between the original and the modified datasets is 
+However, the difference with respect to the median between the original and the modified datasets is 
 `r format((median(numSteps2$total) - 
 median(numSteps$total))/median(numSteps$total), decimal.mark=".")`.
 
 If we use the median instead of the mean in filling up the missing values,
-the error could be zero.
+the difference between the computed medians could be zero. However,
+the difference between the computed means may not be zero.
 
 
 #####   3.4.3. What is the impact of imputing missing data on the estimates of the total daily number of steps?
